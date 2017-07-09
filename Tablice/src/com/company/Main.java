@@ -7,9 +7,11 @@ public class Main {
         int[] tablica = new int[10];
 
         for (int i = 0; i < tablica.length;i++) {
-            tablica[i] = (int)(10 * Math.random());
+            tablica[i] = (i + 1)* 10;
             System.out.print(tablica[i] + " ");
         }
+
+
 
 	// write your code here
     }
