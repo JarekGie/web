@@ -1,0 +1,89 @@
+
+.wrapperImg {
+	max-height: 200vh;
+}
+wrapper-skills {
+	background: #F2F2F2;
+	min-width: 10vw;
+	max-height: 400vh;
+	margin: 6% 5%;
+	border:20px solid #ffffff;
+	overflow: hidden;
+}
+.middle-block-text {
+	height: 50vh;
+	padding-top: 15%;
+}
+.middle-block-text h1 {
+	max-width:80vw;
+	padding-left: 10px;
+	font-size: 130%;	
+}
+.middle-block-text h2 {
+	max-width: 80vw;
+	padding-left: 10px;
+	font-size: 100%;
+	
+}
+.hello {
+	
+	background-image: url(img/justyna_golab1_m.png);
+	background-size: 230px auto;
+	background-position: right center;
+	background-repeat: no-repeat;
+}
+.about {
+	padding-top: 5%;
+	background: none;
+	min-height: auto;
+}
+.about-text {
+	margin:0px;
+	padding: 0px;
+}
+.mobile {
+	margin-top: 10px;
+	padding-top: 0px;
+	
+}
+.resume-list {
+	max-height: 70vh;
+	padding-bottom: 10px;
+	background-image: none;
+}
+.date {
+	font-size: 90%;
+	
+}
+.bd {
+	border: 1px solid red;
+}
+.block {
+	margin: 0px;
+	padding: 0px;
+}
+.full {
+	overflow: hidden;
+	
+	padding-top: 5%;
+	margin-top: 0px;
+}
+.skills {
+	background-image: url(img/justyna_golab_skills_m.png);
+	background-size: 320 auto;
+	background-position: center center;
+	
+}
+.resume {
+	
+	background-image: url(img/justyna_golab_resume_m.png);
+	background-size: 320 auto;
+	background-position: center center;
+	
+}
+.aboutme {
+	background-image: url(img/justyna_golab_omnie_m.png);
+	background-size: 320 auto;
+	background-position: center center;
+	
+}

@@ -1,0 +1,202 @@
+@media screen and (max-width:1920px){
+	.wrapper {
+		max-height: 50vh;
+	}
+	.hello {
+		padding-top: 50%;
+		background-image: url(img/justyna_golab_omnie.png);
+	}
+}
+body {
+	background: #E5E5E5;
+	margin:0px;
+	padding:0px;
+	line-height: 1.5;
+}
+.navbar-custom {
+    color: #FFFFFF;
+    background-color: #DADADA;
+	border-color: #DADADA;
+}
+.navbar-custom a:hover {
+	background-color: #5D5F60;
+}
+p,li,span {
+font-family: 'Coda', sans-serif;
+font-size: 100%;
+line-height: 1.5;
+letter-spacing: 1.5pt;
+}
+h4 {
+	font-weight: bold;
+}
+section {
+	width:10vw auto;
+	
+}
+
+.wrapper {
+	background: #F2F2F2;
+	min-width: 10vw;
+	max-height: 80vh;
+	margin: 6% 5%;
+	border:20px solid #ffffff;
+	overflow: hidden;
+}
+
+.hello {
+	padding-top: 5%;
+	background-image: url(img/justyna_golab1.png);
+	background-size: auto auto;
+	background-position: right bottom;
+	background-repeat: no-repeat;
+	z-index: 1;
+}
+
+about-text {
+	overflow-x: hidden;
+	overflow-y: scroll;
+	height: 60vh;
+}
+.aboutme {
+	padding-top: 15%;
+	height:70vh;
+	background-image: url(img/justyna_golab_omnie.png);
+	background-size: auto auto;
+	background-position: left center;
+	background-repeat: no-repeat;
+}
+.block {
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+.skills {
+	padding-top: 5%;
+	min-height:50vh;
+	padding-top: 5%;
+	height:70vh;
+	background-image: url(img/justyna_golab_skills.png);
+	background-size: auto auto;
+	background-position: right center;
+	background-repeat: no-repeat;
+}
+
+.middle-block-text {
+	height: 80vh;
+	z-index: 2;
+}
+.middle-block-text h1 {
+	max-width:30vw;
+	padding-left: 30px;
+	font-family: Chonburi;
+	font-weight: bold;
+	font-size: 250%;
+	line-height: 1.5;
+}
+.middle-block-text h2 {
+	padding-left: 30px;
+	max-width: 30vw;
+	font-family: Combo;
+	font-size: 190%;
+	color: #FF486E;
+	line-height: 1.5;
+}
+
+.resume {
+	padding-top: 5%;
+	height:70vh;
+	background-image: url(img/justyna_golab_resume.png);
+	background-size: auto auto;
+	background-position: right center;
+	background-repeat: no-repeat;
+}
+.resume-list {
+	overflow-x: hidden;
+	overflow-y: scroll;
+	height: 60vh;
+	
+}
+.personal {
+	
+	padding-top: 60%;
+	
+}
+.personal-text {
+	height: 70vh;
+	overflow: hidden;
+	z-index: 2;
+}
+.personal span {
+	display: flex;
+	overflow: hidden;
+}
+.date {
+	color:#ffffff;
+	text-align: center;
+	margin: 0px;
+	padding: 0px;
+	background:#FF486E;
+	margin-left:20px;
+}
+.place span {
+	display: flex;
+}
+.progres {
+	margin-bottom: 10px;
+}
+.education {
+	margin-bottom: 10px;
+}
+.contact span{
+	display: flex;
+}
+glyphicon-phone-alt {
+	font-size: 200%;
+}
+#formularz {
+	width:90%; /* ustawiamy szerokość formularza */
+	margin:0 auto; /* jeżeli nasz formularz ma ustawioną szerokość wyśrodkowujemy go */
+	background-color:#ffffff; /* dodajemy kolor tła naszemu formularzowi */
+	border:2px solid #ccc; /* dodajemy obramowanie o szerokości 2px */
+	border-radius:10px; /* zaokrąglamy tło naszego formularza */
+	padding:20px; /* dodajemy margines wewnątrz naszego formularza */
+	margin-top:20px; /* dodajemy margines górny naszego formularza */
+    margin-bottom: 20px;
+}
+
+#formularz label {
+	display:block;/* ustawiamy by label rozpoczynał się od nowej linii*/
+	margin-bottom:5px;/* dodajemy margines dolny */
+	font-weight:bold; /* pogrubiamy czcionkę */
+	text-transform: uppercase; /* zamieniamy wszystkie litery na duże */
+	font-size:90%; /* ustawiamy wielkość czcionki */
+	color:#555555; /* ustawiamy kolor czcionki */
+}
+
+#formularz textarea,
+#formularz input {
+	padding:5px; /* dodajemy margines wewnątrz naszego pola */
+	border-radius:3px; /* dodajemy zaokraglone rogi */
+	border:1px solid #ccc; /* dodajemy obramowanie */
+	margin-bottom:25px; /* dodajemy margines dolny */
+	width:100%; /* ustalamy szerokość */
+}
+
+#formularz input#submit {
+	width:60%; /* ustalamy szerokość */
+	cursor:pointer; /* zmieniamy kursor */
+	margin-bottom:0px;/* resetujemy margines dolny */
+}
+
+#formularz p.copy {
+	color:#555555; /* ustawiamy kolor czcionki */
+	margin-bottom:0px; /* resetujemy margines dolny */
+	font-size:12px; /* ustawiamy rozmiar czcionki */
+	text-align: center; /* wyśrodkowywujemy tekst */
+}
+
+#formularz p.copy a {
+	color:#555555;/* ustawiamy kolor czcionki */
+	text-decoration: none; /* usuwamy podkreślenie linku */
+	font-weight:bold; /* pogrubiamy czcionkę */
+}
