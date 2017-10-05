@@ -1,0 +1,7 @@
+* { /* resetowanie styli przeglądarek */
+	margin: 0px;
+	padding: 0px;
+}
+section {
+	margin: auto;
+}
