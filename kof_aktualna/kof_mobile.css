@@ -1,0 +1,60 @@
+.logo {
+	max-width: 50%;
+	padding:5px 10px;
+	margin: 0 auto;
+}
+
+h1 {
+	width: 90%;
+}
+
+.article {
+	padding: 10px 5px;
+}
+
+.main ul,li {
+	display: block;
+}
+.contact a,img {
+	margin-left: 0;
+}
+.contact img {
+	padding-right: 0;
+}
+#menu-icon {
+	display:inline-block;
+	}
+
+.main ul, .main:active ul { 
+
+	display: none;
+	position: absolute;
+	right: 20px;
+	top: 60px;
+	margin:0;
+	padding: 0;
+	width: 50%;
+	border-radius: 4px 0 4px 4px;
+	}
+
+	.main li {
+
+	text-align: center;
+	background: #0089D0;
+	width: 100%;
+	padding: 5px 0;
+	margin: 0;
+	border-bottom:1px solid #ffffff;
+	}
+
+	.main:hover ul {
+
+	display: block;
+
+	}
+div#slider {
+	max-height: 100px;
+}
+li {
+	list-style: circle;
+}
